@@ -33,7 +33,7 @@ openpyxl>=3.1.0
 odfpy>=1.4.1
 py
 psycopg2-binary>=2.9.6
-pyarrow>=10.0.1
+pyarrow>=14.0.1
 pymysql>=1.0.2
 pyreadstat>=1.2.0
 tables>=3.8.0
@@ -88,3 +88,9 @@ adbc-driver-sqlite>=0.8.0
 dataframe-api-compat>=0.1.7
 typing_extensions; python_version<"3.11"
 tzdata>=2022.7
+aiobotocore>=2.9.1 # not directly required, pinned by Snyk to avoid a vulnerability
+aiohttp>=3.9.2 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
