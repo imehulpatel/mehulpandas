@@ -1,4 +1,4 @@
-FROM python:3.10.8
+FROM python:3.12.3
 WORKDIR /home/pandas
 
 RUN apt-get update && apt-get -y upgrade
